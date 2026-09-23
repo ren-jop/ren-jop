@@ -20,3 +20,10 @@ Swift · macOS · Rust · Embedded Rust · EventKit · Bevy · RP2040 · hardwar
 ## About
 
 I'm **Ren Jopson** (GitHub: `rin677`). My current projects focus on lightweight native tools, embedded firmware/hardware, Rust game development and productivity software that connects planning with focused execution.
+
+
+## AI in my workflow
+
+AI is deeply integrated into how I build and organise projects. I use it to reason through Swift, Rust and embedded implementation options, inspect build errors, synthesise technical documentation, review integration paths, structure playtest/debugging work, and turn rough notes into project handoffs, roadmaps and study material.
+
+I treat generated output as a proposal rather than a source of truth: compiler output, runtime behaviour, datasheets, measurements and actual user interaction still decide what ships.
