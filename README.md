@@ -19,12 +19,30 @@ I like projects where boundaries matter: GUI ↔ daemon, calendar ↔ timer, fir
 
 ## Run the macOS projects
 
-Each native app has a repository-local installer rather than a manual build checklist:
+Each native app has a repository-local installer rather than a manual build checklist.
+
+**Focus**
 
 ```bash
-git clone --depth 1 https://github.com/ren-jop/focus.git && cd focus && ./install.sh
-git clone --depth 1 https://github.com/ren-jop/planner.git && cd planner && ./install.sh
-git clone --depth 1 https://github.com/ren-jop/deadlock.git && cd deadlock && ./install.sh
+git clone --depth 1 https://github.com/ren-jop/focus.git
+cd focus
+./install.sh
+```
+
+**Planner**
+
+```bash
+git clone --depth 1 https://github.com/ren-jop/planner.git
+cd planner
+./install.sh
+```
+
+**Deadlock**
+
+```bash
+git clone --depth 1 https://github.com/ren-jop/deadlock.git
+cd deadlock
+./install.sh
 ```
 
 Deadlock is currently **v1.2.3 preview**; Focus is **v1.7 preview**; Planner is **v0.8.1 preview**. The preview labels are intentional rather than presenting partially verified work as production-ready.
