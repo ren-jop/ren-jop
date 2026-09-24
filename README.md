@@ -1,29 +1,35 @@
 # Ren Jopson
 
-I build native macOS software, Rust projects, embedded systems and games.
+Software engineering across **native macOS, Rust, embedded systems, and game systems**.
 
-**Portfolio:** https://ren-jop.github.io/ren-jopson/  
-**Projects:** https://ren-jop.github.io/projects/
+I like projects where boundaries matter: GUI ↔ daemon, calendar ↔ timer, firmware ↔ hardware, procedural generation ↔ player feedback. My focus is clear ownership, observable runtime behaviour, and small systems that can be reasoned about when something goes wrong.
 
-## Selected work
+**Portfolio:** https://ren-jop.github.io/  
+**Project index:** https://ren-jop.github.io/projects/
 
-- [Deadlock](https://github.com/ren-jop/deadlock) — native macOS sleep enforcement and distraction blocking
-- [Focus](https://github.com/ren-jop/focus) — configurable countdown/count-up focus timer and local session history
-- [Planner](https://github.com/ren-jop/planner) — Apple Calendar, Focus and Deadlock command center
-- [Oxide Keys](https://github.com/ren-jop/oxide-keys) — embedded Rust handheld console project
-- [Descent: Null](https://github.com/ren-jop/descent-null) — Rust / Bevy 2D cave survival game
+## Selected engineering
 
-## Areas I work in
+| Project | Problem | Engineering |
+| --- | --- | --- |
+| [Deadlock](https://github.com/ren-jop/deadlock) | Make sleep windows and distraction rules difficult to ignore | Swift, privileged daemon, launchd, IOKit, Unix IPC |
+| [Focus](https://github.com/ren-jop/focus) | Keep focus-session timing simple while retaining useful history | Swift, adaptive timers, local history, IPC |
+| [Planner](https://github.com/ren-jop/planner) | Connect planning to execution without creating another calendar database | EventKit, Apple Calendar, cross-app state boundaries |
+| [Oxide Keys](https://github.com/ren-jop/oxide-keys) | Learn embedded Rust through a real handheld device | RP2040, embedded Rust, custom 4-layer PCB, firmware |
+| [Descent: Null](https://github.com/ren-jop/descent-null) | Build a readable survival loop around procedural caves | Rust, Bevy ECS, procgen, survival and hazard systems |
 
-Swift · macOS · Rust · Embedded Rust · EventKit · Bevy · RP2040 · hardware prototyping
+## Stack
 
-## About
+**macOS:** Swift · AppKit · SwiftUI · EventKit · launchd · IOKit  
+**Systems:** Unix IPC · state machines · diagnostics · event-driven design  
+**Rust:** Bevy · embedded Rust · `no_std` · rp2040-hal  
+**Hardware:** KiCad · RP2040 · PCB design · datasheet-driven development
 
-I'm **Ren Jopson** (GitHub: `ren-jop`). My current projects focus on lightweight native tools, embedded firmware/hardware, Rust game development and productivity software that connects planning with focused execution.
+## How I build
 
+- Give important state one authoritative owner.
+- Prefer runtime evidence, compiler output and documentation over assumptions.
+- Keep idle work small; use events and lifecycle hooks where they fit.
+- Validate a complete working path early, then widen the system.
+- Use AI for research, debugging and review, while treating generated output as a hypothesis rather than a source of truth.
 
-## AI in my workflow
-
-AI is deeply integrated into how I build and organise projects. I use it to reason through Swift, Rust and embedded implementation options, inspect build errors, synthesise technical documentation, review integration paths, structure playtest/debugging work, and turn rough notes into project handoffs, roadmaps and study material.
-
-I treat generated output as a proposal rather than a source of truth: compiler output, runtime behaviour, datasheets, measurements and actual user interaction still decide what ships.
+Most of the macOS apps are currently **preview builds**. I label them that way deliberately instead of presenting unverified work as production-ready.
