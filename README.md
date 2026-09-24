@@ -11,7 +11,7 @@ I like projects where boundaries matter: GUI ↔ daemon, calendar ↔ timer, fir
 
 | Project | Problem | Engineering |
 | --- | --- | --- |
-| [Deadlock](https://github.com/ren-jop/deadlock) | Make sleep windows and distraction policy persist independently of the UI | Swift, privileged daemon, launchd, IOKit, Unix IPC |
+| [Deadlock](https://github.com/ren-jop/deadlock) | Keep sleep and distraction policy enforced independently of the UI | Swift, privileged daemon, launchd, IOKit, Unix IPC, layered web blocking |
 | [Focus](https://github.com/ren-jop/focus) | Keep focus-session timing simple while retaining useful history | Swift, adaptive timers, local history, IPC |
 | [Planner](https://github.com/ren-jop/planner) | Connect planning to execution without creating another calendar database | EventKit, Apple Calendar, cross-app state boundaries |
 | [Oxide Keys](https://github.com/ren-jop/oxide-keys) | Learn embedded Rust through a real handheld device | RP2040, embedded Rust, custom 4-layer PCB, firmware |
@@ -45,7 +45,7 @@ cd deadlock
 ./install.sh
 ```
 
-Deadlock is currently **v1.2.3 preview**; Focus is **v1.7 preview**; Planner is **v0.8.1 preview**. The preview labels are intentional rather than presenting partially verified work as production-ready.
+Deadlock is currently **v1.2.4 preview**; Focus is **v1.7 preview**; Planner is **v0.8.1 preview**. The preview labels are intentional rather than presenting partially verified work as production-ready.
 
 ## Stack
 
