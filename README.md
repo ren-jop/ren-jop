@@ -1,5 +1,7 @@
 # Ren Jopson
 
+**GitHub: [@ren-jop](https://github.com/ren-jop)** · **Website: [ren-jop.github.io](https://ren-jop.github.io/)**
+
 I build small macOS tools, Rust projects and hardware/software experiments.
 
 Most of my current work is stuff I wanted to use myself:
@@ -9,8 +11,6 @@ Most of my current work is stuff I wanted to use myself:
 - [Planner](https://github.com/ren-jop/planner) — Apple Calendar-based planning that can start Focus sessions.
 - [Oxide Keys](https://github.com/ren-jop/oxide-keys) — an RP2040 handheld with a custom four-layer PCB and embedded Rust firmware.
 - [Descent: Null](https://github.com/ren-jop/descent-null) — a 2D cave-survival game built with Rust and Bevy.
-
-Website: https://ren-jop.github.io/
 
 ## Current tools
 
