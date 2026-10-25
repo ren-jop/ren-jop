@@ -1,6 +1,6 @@
 # Ren Jopson
 
-**GitHub: [@ren-jop](https://github.com/ren-jop)** · **Website: [ren-jop.github.io](https://ren-jop.github.io/)**
+**GitHub: [@ren-jop](https://github.com/ren-jop)** · **Website: [renjop](renjop.me)**
 
 I build small macOS tools, Rust projects and hardware/software experiments.
 
